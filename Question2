@@ -1,0 +1,3 @@
+UNF(PatientNumber, PatientName, Birtdate, PrescriptionNumber, Medicine, Dosage, DoctoreNumber, Doctor, Assistant)
+1NF(
+  
