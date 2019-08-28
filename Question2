@@ -1,3 +1,11 @@
 UNF(PatientNumber, PatientName, Birtdate, PrescriptionNumber, Medicine, Dosage, DoctoreNumber, Doctor, Assistant)
-1NF(
+1NF:
+  Multiple medicines on prescriptionNumber. Also dosage can be multiple values for 1 cell.
+
+2NF: 
+  DB(PatientNumber,PrescriptionNumber, Doctornumber)
+  R1(PatientNumber, PatientName, Birtdate)
+  R2(PrescriptionNumber, Medicine, Dosage)
+  R3(DoctorNumber, Doctor, Assistant)
   
+ 3NF = 2 NF
