@@ -1,0 +1,3 @@
+CREATE database_question3
+leave mysql
+mysql -u username -p <database_question3
